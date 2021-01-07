@@ -7,6 +7,7 @@ body{
 .top-nav{
     text-align :right;
     margin : 30px 100px;
+    height : 100px;
 }
 
 .nav{
@@ -15,14 +16,16 @@ body{
 }
 
 .half-wd{
-    width: 35%;
-    float:left;
+    width: 35%;    
     margin-left:5%;
     padding:2%;
+    float:left;
+    border : 1px saddlebrown solid;
 }
 
 .half-wd img{
     width :100%;
+
 }
 
 .linkbutton{
@@ -31,8 +34,14 @@ body{
     padding: 10px 20px;
     color:white;
     border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
 }
+section{
+    height: 700px;
+    border:#363958 solid;
 
+}
 .header1{
     color:orange;
     
@@ -40,7 +49,7 @@ body{
 
 h1{
 
-    font-size: 70px;
+    font-size: 80px;
 }
 h2{
     font-size: 48px;
@@ -58,3 +67,67 @@ p{
 .highlight-orange{
     color: #FF8367;
 }
+
+.half-wd p{
+    margin-bottom: 35px;
+
+}
+
+.projects{
+    width :23%;
+    float:left;
+    margin-left:3%;
+    padding:2%;    
+    background-color:white;
+    border-radius:15px;
+}
+
+
+.commonattr{
+    margin-top: 30px;
+    box-shadow: 3px 3px 20px gray;
+    border-radius: 10px;
+    height: 60%;
+    background-color: white;
+}
+.top-three{
+    margin-top: 30px;
+    height:700px;
+    background-color:#F8F9FC;
+}
+.top-three h2{
+    text-align: center;
+}
+
+.projects img{
+    width:100%;
+}
+.work{
+    position: relative;
+
+}
+.work img{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.work-left {
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+
+    color: #FFFFFF;
+  }
+  .work-right {
+    position: absolute;
+    bottom: 40%;
+    right: 30%;
+  }
+
