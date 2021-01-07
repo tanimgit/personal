@@ -6,8 +6,10 @@ body{
 
 .top-nav{
     text-align :right;
-    margin : 30px 100px;
+    margin : 30px 130px;
     height : 100px;
+    font-size: 20px;
+    color: dimgray;
 }
 
 .nav{
@@ -20,7 +22,7 @@ body{
     margin-left:5%;
     padding:2%;
     float:left;
-    border : 1px saddlebrown solid;
+    
 }
 
 .half-wd img{
@@ -34,12 +36,11 @@ body{
     padding: 10px 20px;
     color:white;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 1git5px;
     font-weight: bold;
 }
 section{
-    height: 700px;
-    border:#363958 solid;
+    height: 600px;
 
 }
 .header1{
@@ -73,6 +74,15 @@ p{
 
 }
 
+.top-three{    
+    padding:70px 0px 70px 70px;
+    height:700px;
+    background-color:#F8F9FC;
+}
+.top-three h2{
+    text-align: center;
+}
+
 .projects{
     width :23%;
     float:left;
@@ -90,14 +100,7 @@ p{
     height: 60%;
     background-color: white;
 }
-.top-three{
-    margin-top: 30px;
-    height:700px;
-    background-color:#F8F9FC;
-}
-.top-three h2{
-    text-align: center;
-}
+
 
 .projects img{
     width:100%;
@@ -130,4 +133,20 @@ p{
     bottom: 40%;
     right: 30%;
   }
+.workenquiry{
+    height: 300px;
+}
 
+.smallicons{
+    margin-left: 15px;
+}
+
+.smallicons img{
+ width: 40px;
+
+}
+
+footer h2{
+    margin:20px 0px 20px 0px;
+    color: #363958;
+}
